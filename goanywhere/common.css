@@ -1,0 +1,55 @@
+/*navigation bar*/
+.navbar {
+    background-color: lightsteelblue;
+}
+.navbar>a {
+    font-family: "Lucida Handwriting";
+    color: white;
+}
+.navbar li a{
+    color: white;
+}
+
+/*login modal*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    width: 400px;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+.animate {
+    animation: popout 0.5s
+}
+@keyframes popout {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/*others*/
+.btn-info {
+    background-color: lightsteelblue;
+    border-color: lightsteelblue;
+}
